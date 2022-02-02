@@ -6,5 +6,4 @@ import org.springframework.data.jpa.repository.Query;
 
 public interface BookRepository extends JpaRepository<Book,Integer> {
     public Book findById(int id);
-
 }
